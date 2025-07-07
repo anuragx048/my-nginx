@@ -15,7 +15,7 @@ jobs:
 
     - name: Set up Kubeconfig
       run: |
-        echo "${{ secrets.KUBECONFIG_DATA }}" | base64 --decode > kubeconfig
+        echo "${{ secrets.KUBE_CONFIG_DATA }}" | base64 --decode > kubeconfig
         mkdir -p $HOME/.kube
         mv kubeconfig $HOME/.kube/config
         chmod 600 $HOME/.kube/config
