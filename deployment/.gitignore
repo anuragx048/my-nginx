@@ -1,0 +1,24 @@
+cat <<EOF > .gitignore
+# Ignore binaries
+kubectl
+minikube-linux-amd64
+
+# Common
+*.log
+*.swp
+.DS_Store
+
+# Node.js (optional)
+node_modules/
+
+# Python (optional)
+__pycache__/
+*.pyc
+
+# Helm output (optional)
+*.tgz
+
+# Kubernetes
+*.kubeconfig
+EOF
+
