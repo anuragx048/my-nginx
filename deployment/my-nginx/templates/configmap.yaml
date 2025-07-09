@@ -6,6 +6,6 @@ data:
   index.html: |
     <html>
     <head><title> Devops</title></head>
-      <body><h1>Hello DevOps anuarg</h1></body>
+      <body><h1>Hello anuarg</h1></body>
     </html>
 
