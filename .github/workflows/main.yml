@@ -29,6 +29,6 @@ jobs:
 
     - name: Deploy to Kubernetes using Helm
       run: |
-        helm upgrade --install nginx-hello ./my-nginx \
+        helm upgrade --install nginx-hello deployment/my-nginx \
           --set service.type=NodePort \
           --set image.repository=nginx 
